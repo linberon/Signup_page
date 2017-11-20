@@ -1,0 +1,110 @@
+body {
+
+	text-align: center;
+	background-color: #3997ef;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-family: "Roboto";
+}
+
+.logo {
+
+	display: inline-block;
+	height: 35px;
+
+}
+
+fieldset {
+
+	background-color: white;
+	width: 320px;
+	border-radius: 3px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+
+}
+
+h1 {
+
+	color: #969696;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+label {
+
+	display: block;
+	text-align: left;
+	font-size: 18px;
+	margin-top: 20px;
+
+}
+
+input {
+
+	display: block;
+	width: 286px;
+	height: 21px;
+	border: 2px solid;
+	padding: 15px;
+	border-color: #d8d8d8;
+	border-radius: 3px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+button {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	color: white;
+	width: 320px;
+	height: 55px;
+	background-color: #10e87c;
+	border-radius: 3px;
+	border: 2px;
+	padding: 15px;
+	font-size: 22px;
+
+}
+
+button:hover {
+
+	background-color: #0bc468;
+}
+
+.forgotten {
+
+	color: #969696;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+
+}
+
+h2 {
+
+	color: white;
+	display: inline-block;
+	font-size: 18px;
+	font-style: bold;
+
+}
+
+a {
+
+	color: white;
+	display: inline-block;
+	font-size: 18px;
+	font-style: bold;
+	text-decoration: underline;
+	
+}

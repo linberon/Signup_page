@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Signup Page Challenge</title>
+
+	<meta charset="utf-8" title="description" content="Signup Page challenge for Thinkful's front end web development course">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+
+</head>
+
+<body>
+
+	<form class="signup-form" action="/signup/" method="post"> 
+
+		<img class="logo" src="logo.png">
+
+	<fieldset name="signup-info">
+
+		<h1>Sign up</h1>
+
+
+		<label for="email">Email</label>
+
+			<input type="text" name="email" placeholder="foo@bar.com" id="email">
+
+
+		<label for="password">Password</label>
+
+			<input type="text" name="password" placeholder="1234passw0rd" id="password">
+
+
+		<button class="sign-up" type="submit">Sign up</button>
+
+		<a class="forgotten" href="/forgot-password/new">Forgot password?</a>
+
+	</fieldset>
+
+<section>
+
+<h2>Already have an account?</h2>
+
+	<a href="/login">Log in</a>
+
+</section>
+
+
+	</form>
+
+</body>
+</html>
