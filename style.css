@@ -95,7 +95,7 @@ h2 {
 	color: white;
 	display: inline-block;
 	font-size: 18px;
-	font-style: bold;
+	font-weight: bold;
 
 }
 
@@ -104,7 +104,7 @@ a {
 	color: white;
 	display: inline-block;
 	font-size: 18px;
-	font-style: bold;
+	font-weight: bold;
 	text-decoration: underline;
 	
 }
